@@ -5,6 +5,7 @@ namespace ioext\tool;
 
 /**
  *     CLib
+ * @author  https://github.com/dekuan
  */
 class CLib
 {
