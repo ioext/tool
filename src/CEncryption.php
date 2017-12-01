@@ -1,4 +1,7 @@
 <?php
 namespace ioext\tool;
 
-class
+class CEncryption
+{
+
+}
