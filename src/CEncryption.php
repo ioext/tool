@@ -13,5 +13,7 @@ class CEncryption
         {
             $nErrCode = CErrCode::PARAM_ERROR;
         }
+
+        return $nErrCode;
     }
 }
