@@ -8,6 +8,9 @@ class CEncryption
         if( CLib::SafeStringVal( $sTmp )  )
         {
         }
-
+        else
+        {
+            $nErrCode =
+        }
     }
 }
