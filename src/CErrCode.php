@@ -2,3 +2,7 @@
 
 namespace ioext\tool;
 
+class CErrCode
+{
+
+}
