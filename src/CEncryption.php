@@ -26,6 +26,5 @@ class CEncryption
         return $sRtn;
         return $sRtn;
         return $sRtn;
-        return $sRtn;
     }
 }
