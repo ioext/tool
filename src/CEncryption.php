@@ -5,13 +5,9 @@ class CEncryption
 {
     public static function MD5( $sTmp, $nLength = 32 )
     {
-        if( CLib::SafeStringVal( $arrTmp )  )
+        if( CLib::SafeStringVal( $sTmp )  )
         {
-            $arrTmp = serialize( $arrTmp );
         }
-        else
-        {
 
-        }
     }
 }
