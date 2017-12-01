@@ -1,1 +1,4 @@
 <?php
+
+namespace ioext\tool;
+
