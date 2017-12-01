@@ -3,8 +3,9 @@ namespace ioext\tool;
 
 class CEncryption
 {
-    public static function MD5( $sTmp, $nLength = 32 )
+    public static function MD5( $sTmp, $nLength = 32, & $sRtn = null, & $sDesc = "" )
     {
+        $nErrCode = CErrCode::SUCCESS;
         if( CLib::SafeStringVal( $sTmp )  )
         {
         }
