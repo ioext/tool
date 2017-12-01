@@ -10,7 +10,7 @@ class CEncryption
         }
         else
         {
-            $nErrCode =
+            $nErrCode = CErrCode::PARAM_ERROR;
         }
     }
 }
