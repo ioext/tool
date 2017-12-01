@@ -20,7 +20,7 @@ class CEncryption
 
         if( CLib::SafeStringVal( $sTmp )  )
         {
-            $sRtn = self::MD5( $sTmp,$bDefault );
+            $sRtn = self::MD5( $sTmp, $bDefault );
         }
 
         return $sRtn;
