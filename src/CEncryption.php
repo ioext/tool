@@ -14,19 +14,15 @@ class CEncryption
      * @param string $sDesc
      * @return int
      */
-    public static function MD5( $sTmp, $bDefault = true, & $sRtn = null, & $sDesc = "" )
+    public static function MD5( $sTmp, $bDefault = true )
     {
-        $nErrCode = CErrCode::SUCCESS;
+        $sRtn = null;
+
         if( CLib::SafeStringVal( $sTmp )  )
         {
             $sRtn = self::MD5( $sTmp,$bDefault );
         }
-        else
-        {
-            $nErrCode = CErrCode::PARAM_ERROR;
-            $sDesc = "参数解析错误";
-        }
 
-        return $nErrCode;
+        return $sRtn;
     }
 }
