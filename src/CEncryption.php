@@ -4,6 +4,10 @@ namespace ioext\tool;
 class CEncryption
 {
     /**
+     * md5 加密
+     *
+     *  @link   http://www.w3school.com.cn/php/func_string_md5.asp
+     *
      * @param $sTmp
      * @param bool $bDefault
      * @param null $sRtn
