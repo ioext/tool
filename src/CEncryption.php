@@ -7,6 +7,10 @@ class CEncryption
     {
         if( is_array( $arrTmp ) )
         {
+            $arrTmp = serialize( $arrTmp );
+        }
+        else
+        {
 
         }
     }
