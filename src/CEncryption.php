@@ -3,6 +3,13 @@ namespace ioext\tool;
 
 class CEncryption
 {
+    /**
+     * @param $sTmp
+     * @param bool $bDefault
+     * @param null $sRtn
+     * @param string $sDesc
+     * @return int
+     */
     public static function MD5( $sTmp, $bDefault = true, & $sRtn = null, & $sDesc = "" )
     {
         $nErrCode = CErrCode::SUCCESS;
