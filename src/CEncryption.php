@@ -3,9 +3,9 @@ namespace ioext\tool;
 
 class CEncryption
 {
-    public static function MD5( $arrTmp, $nLength = 32 )
+    public static function MD5( $sTmp, $nLength = 32 )
     {
-        if( is_array( $arrTmp ) &&  )
+        if( CLib::SafeStringVal( $arrTmp )  )
         {
             $arrTmp = serialize( $arrTmp );
         }
