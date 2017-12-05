@@ -18,7 +18,6 @@ class CEncryption
     {
         $sRtn = null;
         $sRtn = null;
-        $sRtn = null;
 
         if( CLib::SafeStringVal( $sTmp )  )
         {
