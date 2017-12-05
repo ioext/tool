@@ -17,6 +17,7 @@ class CEncryption
     public static function MD5( $sTmp, $bDefault = true )
     {
         $sRtn = null;
+        $sRtn = null;
 
         if( CLib::SafeStringVal( $sTmp )  )
         {
